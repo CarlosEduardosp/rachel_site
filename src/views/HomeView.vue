@@ -1,61 +1,88 @@
 <script>
+import Parte1 from '/src/components/parte1.vue';
+import Parte2 from '/src/components/parte2.vue';
+import Parte3 from '/src/components/parte3.vue';
+
+export default {
+  name: 'Home',
+
+  components: {
+    Parte1,
+    Parte2,
+    Parte3
+  }
+}
 
 </script>
 
 <template>
   <div class="home">
-    
-    <p class="titulo">RACHEL COSTA - NAIL DESIGN</p>
+    <div class="fundo1">
 
-    <div class="imagem">
-            
-      <img src="../assets/imagens/94e78e70e1bbee751da2f9e591f6fae9.jpg" alt="">          
-      
-    </div>
-
-    <div class="tags">
-
-      <P>Mais de 5 Anos de Experiência</P>
-      <P>Especialista em fibra de vidro</P>
-      <P>Naturalidade na Arte Fixa</P>
-      <P>Educadora Nail's Designer</P>
+      <Parte1 />
 
     </div>
-
-
+    <div class="fundo2">
+      <Parte2 />
+    </div>
+    <div class="fundo3">
+      <Parte3 />
+    </div>
   </div>
 </template>
 
 <style scoped>
-
-.titulo{
-  text-align: center;
-  padding: 5%;
+.home {
 }
 
-.imagem{
+.fundo1 {  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  min-height: 75vh;
 }
 
-img{
-  width: 98%;
-  box-shadow: 0px 0px 8px 10px #f3f3f3;
-  opacity: 100%;   
-}
-
-.tags{
+.fundo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5%;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  line-height: 2rem;
-  gap: 5px;
+  position: relative;
+  min-height: 88vh;
 }
+
+.fundo1::after {
+  content: '';
+  background-image: url(../assets/imagens/folhas-douradas-de-fundo-roxo-claro-com-espaco-para-copia_1000823-67083.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  /* ajuste a opacidade conforme necessário */
+  z-index: -1;
+  /* para colocar atrás do conteúdo */
+}
+
+.fundo2::after {
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  /* ajuste a opacidade conforme necessário */
+  z-index: -1;
+  /* para colocar atrás do conteúdo */
+}
+
 
 </style>
