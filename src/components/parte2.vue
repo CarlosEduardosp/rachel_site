@@ -47,7 +47,7 @@ export default {
 .imagem{
     width: 70%;
     border-radius: 45%;
-    box-shadow: 0px 0px 20px 5px #face7d;
+    box-shadow: 0px 0px 20px 5px #cc586b;
 }
 
 </style>

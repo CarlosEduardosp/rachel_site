@@ -10,13 +10,7 @@ export default{
 
     <div class="main">
         
-        <div class="titulo">
-            NAIL DESIGN
-        </div>
-
-        <div class="logo">
-            RACHEL COSTA
-        </div>
+        <img class="imagem" src="../assets/imagens/284180530_3108624156018439_7103310289403432985_n.jpg" alt="">
 
         <div class="subtitulo">
             UNHAS PERFEITAS EM MINUTOS!
@@ -44,21 +38,9 @@ export default{
     justify-content: center;
 }
 
-.titulo{
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.logo{
-    color: #fff;
-    background-color: #000000cb;
-    border-radius: 5%;
-    box-shadow: 0px 0px 10px 2px #eccb8f;
-    padding: 3%;
-    margin: 5%;
-    font-size: 1.5rem;
-    font-weight: bolder;
+.imagem{
+    width: 50%;
+    border-radius: 10%;
 }
 
 .subtitulo{
@@ -68,7 +50,7 @@ export default{
     text-justify: distribute-all-lines;
     font-weight: 500;
     padding: 5% 0%;
-    text-shadow: 0px 0px 20px #000;
+    text-shadow: 0px 0px 10px #000;
 }
 
 .texto{
@@ -81,12 +63,12 @@ export default{
 }
 
 .btn{
-    background-color: #eccb8f;
+    background-color: #fff;
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 3%;
-    border: 1px solid #fff;
+    border: 2px solid #cc586b;
     border-radius: 20px;
-    color: #000;
+    color: #cc586b;
 }
 </style>
