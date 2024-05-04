@@ -10,26 +10,26 @@ export default {
     <div class="main">
 
         <p class="titulo">
-            OPNIÕES QUE NOS INSPIRAM!!
+            OPINIÕES QUE NOS INSPIRAM!!
         </p>
         <div class="card">
             <img class="imagem" src="../assets/imagens/manutencaoalongamento-de-unhas-compressed-1.jpg" alt="">
             <p class="texto">
-                Opnião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
+                Opinião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
             </p>
             <p class="nome">Nome do Cliente</p>
         </div>
         <div class="card">
             <img class="imagem" src="../assets/imagens/manutencaoalongamento-de-unhas-compressed-1.jpg" alt="">
             <p class="texto">
-                Opnião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
+                Opinião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
             </p>
             <p class="nome">Nome do Cliente</p>
         </div>
         <div class="card">
             <img class="imagem" src="../assets/imagens/manutencaoalongamento-de-unhas-compressed-1.jpg" alt="">
             <p class="texto">
-                Opnião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
+                Opinião de clientes satisfeitos com os resultados ou atendimentos, ou qualquer outra coisa.     
             </p>
             <p class="nome">Nome do Cliente</p>
         </div>
@@ -77,13 +77,13 @@ export default {
 
 .texto{
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     font-size: 1rem;
 }
 
 .nome{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: bolder;
 }
 
 .btn{

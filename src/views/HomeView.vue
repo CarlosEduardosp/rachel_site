@@ -4,6 +4,7 @@ import Parte2 from '/src/components/parte2.vue';
 import Parte3 from '/src/components/parte3.vue';
 import Parte4 from '/src/components/parte4.vue';
 import Parte5 from '/src/components/parte5.vue';
+import Rodape from '/src/components/rodape.vue';
 import Menu from '/src/components/header.vue';
 
 export default {
@@ -14,7 +15,8 @@ export default {
     Parte2,
     Parte3,
     Parte4,
-    Parte5,   
+    Parte5,
+    Rodape,   
     Menu 
   }
 }
@@ -43,6 +45,9 @@ export default {
     </div>
     <div class="fundo5">
       <Parte5 />
+    </div>
+    <div class="rodape">
+      <Rodape />
     </div>
   </div>
 </template>
@@ -91,6 +96,14 @@ export default {
   min-height: 100vh;
 }
 .fundo5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+}
+.rodape {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,6 +179,21 @@ export default {
 .fundo5::after {
   content: '';
   background-image: linear-gradient(#4e2f4a,  #fbd8ff);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  /* ajuste a opacidade conforme necessário */
+  z-index: -1;
+  /* para colocar atrás do conteúdo */
+}
+.rodape::after {
+  content: '';
+  background-image: linear-gradient( #fbd8ff, #4e2f4a);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
