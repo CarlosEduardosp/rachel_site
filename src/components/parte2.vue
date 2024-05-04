@@ -36,18 +36,19 @@ export default {
 }
 
 .texto{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 10%;
     text-align: justify;
     justify-content: center;
     letter-spacing: 1px;
-    line-height: 1.5rem
+    line-height: 1.5rem;
+    color: #000;
 }
 
 .imagem{
     width: 70%;
     border-radius: 45%;
-    box-shadow: 0px 0px 20px 5px #cc586b;
+    box-shadow: 0px 0px 20px 2px #f3f3f3;
 }
 
 </style>

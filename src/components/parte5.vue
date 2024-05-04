@@ -34,7 +34,7 @@ export default {
             <p class="nome">Nome do Cliente</p>
         </div>
         <div class="btn">
-            WhattsApp
+            AGENDAR HORÁRIO
         </div>
         
 
@@ -88,7 +88,7 @@ export default {
 
 .btn{
     background-color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bolder;
     padding: 3%;
     border: 2px solid #cc586b;

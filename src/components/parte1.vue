@@ -22,7 +22,7 @@ export default{
         </div>
 
         <div class="btn">
-            WhattsApp
+            AGENDAR HORÁRIO
         </div>
 
     </div>
@@ -66,7 +66,7 @@ export default{
 
 .btn{
     background-color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bolder;
     padding: 3%;
     border: 2px solid #cc586b;
