@@ -62,11 +62,13 @@ export default {
 }
 
 .titulo{
-    font-size: 2rem;
-    font-weight: 900;
     color: #fff;
-    text-shadow: 0px 0px 20px #cc586b;
-    padding: 5%;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    padding: 4%;
+    text-shadow: #4e2f4a 0px 5px 15px ;
+
 }
 
 

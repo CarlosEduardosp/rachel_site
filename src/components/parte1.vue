@@ -10,7 +10,7 @@ export default{
 
     <div class="main">
         
-        <img class="imagem" src="../assets/imagens/284180530_3108624156018439_7103310289403432985_n.jpg" alt="">
+        <img class="imagem" src="../assets/imagens/kisspng-businessperson-stock-photography-woman-happy-women-5abea8aa2605c5.9011973015224444581558.png" alt="">
 
         <div class="subtitulo">
             UNHAS PERFEITAS EM MINUTOS!
@@ -36,21 +36,23 @@ export default{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .imagem{
-    width: 50%;
+    width: 80%;
     border-radius: 10%;
+    margin-bottom: 5%;
+    margin-top: 15%;
 }
 
 .subtitulo{
     color: #fff;
     font-size: 2rem;
+    font-weight: 1000;
     text-align: center;
-    text-justify: distribute-all-lines;
-    font-weight: 500;
-    padding: 5% 0%;
-    text-shadow: 0px 0px 10px #000;
+    padding: 4%;
+    text-shadow: #4e2f4a 0px 5px 30px ;
 }
 
 .texto{
